@@ -52,7 +52,7 @@
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="buscador">
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
               </div>
@@ -64,14 +64,14 @@
             <article class="container">
                 <h1>Practica de DOM</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis pariatur amet totam doloribus ullam dolor adipisci enim ex nisi laborum, cum voluptatibus perspiciatis nesciunt quisquam eveniet repellendus animi inventore! Vitae similique accusantium ad saepe adipisci. Placeat necessitatibus temporibus recusandae amet, quaerat, error, nam corporis tempora quas ullam impedit doloremque!</p>
-                <button class="btn btn-primary">Cambiar</button>
+                <button class="btn btn-primary" onclick="cambiarTitulo()">Cambiar</button>
             </article>
         </section>
-        <section class="container my-4">
+        <section class="container my-4" id="noticia">
             <h2>Crear elementos html desde el archivo de JavaScript</h2>
             <hr>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae perspiciatis voluptas atque aspernatur laboriosam non totam sequi itaque excepturi minima! Vero quisquam cum nulla earum asperiores aspernatur, nihil in. Natus esse quis illo accusamus quaerat atque ipsam possimus placeat. Dolores numquam molestiae suscipit sunt accusamus quasi error harum qui eligendi pariatur quisquam quibusdam, sint ipsa, quia amet facilis, eos minima ratione perspiciatis doloribus. Pariatur similique tempora quibusdam quisquam minus voluptas alias libero dolores, in magni omnis saepe expedita officia blanditiis maiores ut eaque culpa dolore et dicta eos nemo. A delectus veniam rerum corporis est tenetur dolore optio ex cum earum nihil, explicabo temporibus sint similique pariatur impedit natus itaque, tempore magni quibusdam labore magnam molestiae harum reprehenderit! Consequatur, reiciendis.</p>
-            <button class="btn btn-outline-primary">Ver mas...</button>
+            <button class="btn btn-outline-primary" id="btnVerMas">Ver mas...</button>
         </section>
     </main>
     <footer class="bg-dark text-light py-3 text-center">
